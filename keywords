@@ -1,1 +1,986 @@
-AI Benefits,AI in Diagnostics,AI in Healthcare,Aging,Allergies,Anemia,Anxiety,Artificial Intelligence,Atrial fibrillation,Autoimmune,Autoimmune Disorders,Body Systems,Bone Health,Brain Health,Cancer,Cardiovascular Health,Chronic Disease,Chronic Pain,Cognitive Function,Crisis Management,DNA,Dementia,Diabetes,Diagnostics,Digestive Health,Disaster Kit,Disease,Disorders,Disparity,Education,Emergency,Emergency Care,Emotional Health,Emotional Well-being,Environmental Health,Epilepsy,Esophagus,Eye Care,Folklore,Food Safety,Gastroenterology,Genetics,Gerd,Geriatrics,Gut Health,Health,Health Disparities,Health Insurance,Healthcare,Healthcare Costs,Healthspan,Hearing Health,Heatstroke,History,Home,Home Safety,Hypertension,Immune Health,Infections,Inflammation,Injury,Insurance,Joint Health,Kidney Health,Lifestyle,Liver Disease,MediCare,Medical Education,Medical History,Medical Misinformation,Medical Oddities,Medical Procedures,Medical Professionals,Medical Science,Medical Technology,Medical Treatments,Medicines,Mental Health,Metabolic Health,Microbiome,Microglia,Misconceptions,Mobility,Money,Muscular Health,Nervous System,Neurologic,Nutrition,Organ Health,Pain,Pain Management,Parkinson's Disease,Patient Care,Patient Safety,Personalized Medicine,Psoriasis,Public Health,Remote Healthcare,Research,Respiratory Diseases,Sarcopenia,Scams,Sepsis,Sleep,Sleep Disorders,Social Connection,Social Security,Stress,Stroke,Supplements,Survival Skills,Technology,Telehealth,Telemedicine,Vaccines,Viral Infections,Weight Management,Women's Health,mRNA
+AI, Aging, and Core Health Topic{
+  "keywords": [
+    {
+      "term": "AI Benefits",
+      "label": "AI Benefits",
+      "url": "/search/label/AI%20Benefits",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "AI in Diagnostics",
+      "label": "AI in Diagnostics",
+      "url": "/search/label/AI%20in%20Diagnostics",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "AI in Healthcare",
+      "label": "AI in Healthcare",
+      "url": "/search/label/AI%20in%20Healthcare",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Artificial Intelligence",
+      "label": "Artificial Intelligence",
+      "url": "/search/label/Artificial%20Intelligence",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Aging",
+      "label": "Aging",
+      "url": "/search/label/Aging",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Health",
+      "label": "Health",
+      "url": "/search/label/Health",
+      "priority": "high",
+      "fallback": false
+    },
+    {
+      "term": "Healthcare",
+      "label": "Healthcare",
+      "url": "/search/label/Healthcare",
+      "priority": "high",
+      "fallback": false
+    },
+    {
+      "term": "Healthspan",
+      "label": "Healthspan",
+      "url": "/search/label/Healthspan",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Medical Technology",
+      "label": "Medical Technology",
+      "url": "/search/label/Medical%20Technology",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Medical Science",
+      "label": "Medical Science",
+      "url": "/search/label/Medical%20Science",
+      "priority": "high",
+      "fallback": true
+    }
+  ]
+}Chronic Conditions & Emotional Health
+{
+  "keywords": [
+    {
+      "term": "Anxiety",
+      "label": "Anxiety",
+      "url": "/search/label/Anxiety",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Chronic Disease",
+      "label": "Chronic Disease",
+      "url": "/search/label/Chronic%20Disease",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Chronic Pain",
+      "label": "Chronic Pain",
+      "url": "/search/label/Chronic%20Pain",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Cognitive Function",
+      "label": "Cognitive Function",
+      "url": "/search/label/Cognitive%20Function",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Dementia",
+      "label": "Dementia",
+      "url": "/search/label/Dementia",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Diabetes",
+      "label": "Diabetes",
+      "url": "/search/label/Diabetes",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Emotional Health",
+      "label": "Emotional Health",
+      "url": "/search/label/Emotional%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Emotional Well-being",
+      "label": "Emotional Well-being",
+      "url": "/search/label/Emotional%20Well-being",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Mental Health",
+      "label": "Mental Health",
+      "url": "/search/label/Mental%20Health",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Neurologic",
+      "label": "Neurologic",
+      "url": "/search/label/Neurologic",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+
+      "term": "Joint Health",
+      "label": "Joint Health",
+      "url": "/search/label/Joint%20Health",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}
+Body Systems and Immune Health
+{
+  "keywords": [
+    {
+      "term": "Autoimmune",
+      "label": "Autoimmune",
+      "url": "/search/label/Autoimmune",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Autoimmune Disorders",
+      "label": "Autoimmune Disorders",
+      "url": "/search/label/Autoimmune%20Disorders",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Bone Health",
+      "label": "Bone Health",
+      "url": "/search/label/Bone%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Brain Health",
+      "label": "Brain Health",
+      "url": "/search/label/Brain%20Health",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Cardiovascular Health",
+      "label": "Cardiovascular Health",
+      "url": "/search/label/Cardiovascular%20Health",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Digestive Health",
+      "label": "Digestive Health",
+      "url": "/search/label/Digestive%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Gut Health",
+      "label": "Gut Health",
+      "url": "/search/label/Gut%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Immune Health",
+      "label": "Immune Health",
+      "url": "/search/label/Immune%20Health",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Inflammation",
+      "label": "Inflammation",
+      "url": "/search/label/Inflammation",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Joint Health",
+      "label": "Joint Health",
+      "url": "/search/label/Joint%20Health",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}Metabolic Health, Organ Systems & Diseases
+{
+  "keywords": [
+    {
+      "term": "Cancer",
+      "label": "Cancer",
+      "url": "/search/label/Cancer",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Stroke",
+      "label": "Stroke",
+      "url": "/search/label/Stroke",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Parkinson's Disease",
+      "label": "Parkinson's Disease",
+      "url": "/search/label/Parkinson%27s%20Disease",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Metabolic Health",
+      "label": "Metabolic Health",
+      "url": "/search/label/Metabolic%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Liver Disease",
+      "label": "Liver Disease",
+      "url": "/search/label/Liver%20Disease",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Kidney Health",
+      "label": "Kidney Health",
+      "url": "/search/label/Kidney%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Respiratory Diseases",
+      "label": "Respiratory Diseases",
+      "url": "/search/label/Respiratory%20Diseases",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Organ Health",
+      "label": "Organ Health",
+      "url": "/search/label/Organ%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Sepsis",
+      "label": "Sepsis",
+      "url": "/search/label/Sepsis",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Sarcopenia",
+      "label": "Sarcopenia",
+      "url": "/search/label/Sarcopenia",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}Metabolic Health, Organ Systems & Diseases
+{
+  "keywords": [
+    {
+      "term": "Cancer",
+      "label": "Cancer",
+      "url": "/search/label/Cancer",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Stroke",
+      "label": "Stroke",
+      "url": "/search/label/Stroke",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Parkinson's Disease",
+      "label": "Parkinson's Disease",
+      "url": "/search/label/Parkinson%27s%20Disease",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Metabolic Health",
+      "label": "Metabolic Health",
+      "url": "/search/label/Metabolic%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Liver Disease",
+      "label": "Liver Disease",
+      "url": "/search/label/Liver%20Disease",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Kidney Health",
+      "label": "Kidney Health",
+      "url": "/search/label/Kidney%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Respiratory Diseases",
+      "label": "Respiratory Diseases",
+      "url": "/search/label/Respiratory%20Diseases",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Organ Health",
+      "label": "Organ Health",
+      "url": "/search/label/Organ%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Sepsis",
+      "label": "Sepsis",
+      "url": "/search/label/Sepsis",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Sarcopenia",
+      "label": "Sarcopenia",
+      "url": "/search/label/Sarcopenia",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}Metabolic Health, Organ Systems and Diseases
+
+
+{
+  "keywords": [
+    {
+      "term": "Cancer",
+      "label": "Cancer",
+      "url": "/search/label/Cancer",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Stroke",
+      "label": "Stroke",
+      "url": "/search/label/Stroke",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Parkinson's Disease",
+      "label": "Parkinson's Disease",
+      "url": "/search/label/Parkinson%27s%20Disease",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Metabolic Health",
+      "label": "Metabolic Health",
+      "url": "/search/label/Metabolic%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Liver Disease",
+      "label": "Liver Disease",
+      "url": "/search/label/Liver%20Disease",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Kidney Health",
+      "label": "Kidney Health",
+      "url": "/search/label/Kidney%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Respiratory Diseases",
+      "label": "Respiratory Diseases",
+      "url": "/search/label/Respiratory%20Diseases",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Organ Health",
+      "label": "Organ Health",
+      "url": "/search/label/Organ%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Sepsis",
+      "label": "Sepsis",
+      "url": "/search/label/Sepsis",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Sarcopenia",
+      "label": "Sarcopenia",
+      "url": "/search/label/Sarcopenia",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}Nutrition, Sleep, Lifestyle & Supplements
+{
+  "keywords": [
+    {
+      "term": "Nutrition",
+      "label": "Nutrition",
+      "url": "/search/label/Nutrition",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Sleep",
+      "label": "Sleep",
+      "url": "/search/label/Sleep",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Sleep Disorders",
+      "label": "Sleep Disorders",
+      "url": "/search/label/Sleep%20Disorders",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Supplements",
+      "label": "Supplements",
+      "url": "/search/label/Supplements",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Weight Management",
+      "label": "Weight Management",
+      "url": "/search/label/Weight%20Management",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Lifestyle",
+      "label": "Lifestyle",
+      "url": "/search/label/Lifestyle",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Mobility",
+      "label": "Mobility",
+      "url": "/search/label/Mobility",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Muscular Health",
+      "label": "Muscular Health",
+      "url": "/search/label/Muscular%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Hearing Health",
+      "label": "Hearing Health",
+      "url": "/search/label/Hearing%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Eye Care",
+      "label": "Eye Care",
+      "url": "/search/label/Eye%20Care",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}Nutrition, Sleep, Lifestyle, and Supplements
+
+{
+  "keywords": [
+    {
+      "term": "Nutrition",
+      "label": "Nutrition",
+      "url": "/search/label/Nutrition",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Sleep",
+      "label": "Sleep",
+      "url": "/search/label/Sleep",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Sleep Disorders",
+      "label": "Sleep Disorders",
+      "url": "/search/label/Sleep%20Disorders",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Supplements",
+      "label": "Supplements",
+      "url": "/search/label/Supplements",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Weight Management",
+      "label": "Weight Management",
+      "url": "/search/label/Weight%20Management",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Lifestyle",
+      "label": "Lifestyle",
+      "url": "/search/label/Lifestyle",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Mobility",
+      "label": "Mobility",
+      "url": "/search/label/Mobility",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Muscular Health",
+      "label": "Muscular Health",
+      "url": "/search/label/Muscular%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Hearing Health",
+      "label": "Hearing Health",
+      "url": "/search/label/Hearing%20Health",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Eye Care",
+      "label": "Eye Care",
+      "url": "/search/label/Eye%20Care",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}Emergency, Public Health and Social Topic
+{
+  "keywords": [
+    {
+      "term": "Emergency",
+      "label": "Emergency",
+      "url": "/search/label/Emergency",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Emergency Care",
+      "label": "Emergency Care",
+      "url": "/search/label/Emergency%20Care",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Disaster Kit",
+      "label": "Disaster Kit",
+      "url": "/search/label/Disaster%20Kit",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Survival Skills",
+      "label": "Survival Skills",
+      "url": "/search/label/Survival%20Skills",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Public Health",
+      "label": "Public Health",
+      "url": "/search/label/Public%20Health",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Health Disparities",
+      "label": "Health Disparities",
+      "url": "/search/label/Health%20Disparities",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Disparity",
+      "label": "Disparity",
+      "url": "/search/label/Disparity",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Insurance",
+      "label": "Insurance",
+      "url": "/search/label/Insurance",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Health Insurance",
+      "label": "Health Insurance",
+      "url": "/search/label/Health%20Insurance",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Social Security",
+      "label": "Social Security",
+      "url": "/search/label/Social%20Security",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}Medical Education, Procedures and Misinformation
+{
+  "keywords": [
+    {
+      "term": "Medical Education",
+      "label": "Medical Education",
+      "url": "/search/label/Medical%20Education",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Medical History",
+      "label": "Medical History",
+      "url": "/search/label/Medical%20History",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Medical Misinformation",
+      "label": "Medical Misinformation",
+      "url": "/search/label/Medical%20Misinformation",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Medical Oddities",
+      "label": "Medical Oddities",
+      "url": "/search/label/Medical%20Oddities",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Medical Procedures",
+      "label": "Medical Procedures",
+      "url": "/search/label/Medical%20Procedures",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Medical Professionals",
+      "label": "Medical Professionals",
+      "url": "/search/label/Medical%20Professionals",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Medical Treatments",
+      "label": "Medical Treatments",
+      "url": "/search/label/Medical%20Treatments",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Medicines",
+      "label": "Medicines",
+      "url": "/search/label/Medicines",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Misconceptions",
+      "label": "Misconceptions",
+      "url": "/search/label/Misconceptions",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Scams",
+      "label": "Scams",
+      "url": "/search/label/Scams",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}Genetics, Microbiome, Diagnostics & mRNA
+{
+  "keywords": [
+    {
+      "term": "DNA",
+      "label": "DNA",
+      "url": "/search/label/DNA",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Genetics",
+      "label": "Genetics",
+      "url": "/search/label/Genetics",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Microbiome",
+      "label": "Microbiome",
+      "url": "/search/label/Microbiome",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Microglia",
+      "label": "Microglia",
+      "url": "/search/label/Microglia",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Diagnostics",
+      "label": "Diagnostics",
+      "url": "/search/label/Diagnostics",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Personalized Medicine",
+      "label": "Personalized Medicine",
+      "url": "/search/label/Personalized%20Medicine",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Remote Healthcare",
+      "label": "Remote Healthcare",
+      "url": "/search/label/Remote%20Healthcare",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Telehealth",
+      "label": "Telehealth",
+      "url": "/search/label/Telehealth",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Telemedicine",
+      "label": "Telemedicine",
+      "url": "/search/label/Telemedicine",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "mRNA",
+      "label": "mRNA",
+      "url": "/search/label/mRNA",
+      "priority": "high",
+      "fallback": true
+    }
+  ]
+}Genetics, Microbiome, Diagnostics, and mRNA
+
+{
+  "keywords": [
+    {
+      "term": "DNA",
+      "label": "DNA",
+      "url": "/search/label/DNA",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Genetics",
+      "label": "Genetics",
+      "url": "/search/label/Genetics",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Microbiome",
+      "label": "Microbiome",
+      "url": "/search/label/Microbiome",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Microglia",
+      "label": "Microglia",
+      "url": "/search/label/Microglia",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Diagnostics",
+      "label": "Diagnostics",
+      "url": "/search/label/Diagnostics",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Personalized Medicine",
+      "label": "Personalized Medicine",
+      "url": "/search/label/Personalized%20Medicine",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Remote Healthcare",
+      "label": "Remote Healthcare",
+      "url": "/search/label/Remote%20Healthcare",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Telehealth",
+      "label": "Telehealth",
+      "url": "/search/label/Telehealth",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Telemedicine",
+      "label": "Telemedicine",
+      "url": "/search/label/Telemedicine",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "mRNA",
+      "label": "mRNA",
+      "url": "/search/label/mRNA",
+      "priority": "high",
+      "fallback": true
+    }
+  ]
+}History, Home, Tech & Miscellaneous
+{
+  "keywords": [
+    {
+      "term": "History",
+      "label": "History",
+      "url": "/search/label/History",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Folklore",
+      "label": "Folklore",
+      "url": "/search/label/Folklore",
+      "priority": "low",
+      "fallback": true
+    },
+    {
+      "term": "Home",
+      "label": "Home",
+      "url": "/search/label/Home",
+      "priority": "medium",
+      "fallback": false
+    },
+    {
+      "term": "Home Safety",
+      "label": "Home Safety",
+      "url": "/search/label/Home%20Safety",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Technology",
+      "label": "Technology",
+      "url": "/search/label/Technology",
+      "priority": "high",
+      "fallback": true
+    },
+    {
+      "term": "Money",
+      "label": "Money",
+      "url": "/search/label/Money",
+      "priority": "medium",
+      "fallback": false
+    },
+    {
+      "term": "Education",
+      "label": "Education",
+      "url": "/search/label/Education",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Crisis Management",
+      "label": "Crisis Management",
+      "url": "/search/label/Crisis%20Management",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Stress",
+      "label": "Stress",
+      "url": "/search/label/Stress",
+      "priority": "medium",
+      "fallback": true
+    },
+    {
+      "term": "Social Connection",
+      "label": "Social Connection",
+      "url": "/search/label/Social%20Connection",
+      "priority": "medium",
+      "fallback": true
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
