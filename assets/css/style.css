@@ -1,5 +1,13 @@
-/assets
-  /css/*  <!-- Variable definitions -->
+-----------------------------------------------
+Blogger Template Style
+Name:        Diver - Blogger Premium Template
+Version:     1.5.0.V
+Author:      Wire Templates
+Author Url:  https://wiretemplates.com/
+Last Update: 16/May/2025
+B062CF31-5B934A4F-A9DE170F-0428A0CA
+----------------------------------------------- */
+ /*  <!-- Variable definitions -->
 <Group  description="Layout Options" selector="body">
 <Variable name="boxedMode" description="Enable Boxed Mode" type="length" default="0px" min="0px" max="1px" value="0px"/>
 <Variable name="stickyMenu" description="Enable Sticky Header" type="length" default="1px" min="0px" max="1px" value="1px"/>
@@ -246,6 +254,8 @@ div#custom-ads-placeholder{display:none;}
 .blogger-clickTrap{position:unset !important;}
 h1,h2,h3,h4,h5,h6{font-family:var(--title-font);font-weight:700}
 body{position:relative;background:var(--body-color-main);font-family:var(--body-font);font-size:14px;font-weight:400;color:var(--black-text);word-wrap:break-word;margin:0;padding:0;font-style:normal;line-height:1.4}
+.header{margin-top:-50px}
+a.read-more{margin-bottom:20px}
 #outer-wrapper{position:relative;overflow:hidden;width:100%;max-width:100%;margin:0 auto}
 .outer-container{display: flex;justify-content: space-between;}
 .dark .post-body p{background:transparent!important;color:#fff!important}
@@ -271,20 +281,15 @@ a.dark-toggle-flex {background-color: #fff}
 .dark-toggle-flex:before{content:'🌙';font-family:var(--icons-font);position:absolute;left:2px;width:16px;height:16px;text-align:center;background-color:#fff;font-weight:400;line-height:16px;z-index:2;border-radius:50%;box-shadow:0 0 4px rgb(0 0 0 / 0.10);transition:left .18s ease;}
 .dark .dark-toggle-flex:after{content:'🌞';right:26px;}
 .dark-toggle-flex:after{content:'🌞';font-family:var(--icons-font);position:absolute;right:4px;width:10px;font-size:8px;font-weight:400;line-height:1;text-align:center;opacity:0.5;transition:right .18s ease;}
-.entry-title{position:relative;display:block;font-size:15px;line-height:1.5;margin:5px 0;}
-.entery-category-box .entry-title a{width:100%;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
-.post-filter .entery-category-box{flex: 1;}
-.category-flex{display:flex;align-items:center;}
-.entery-snipt{position:relative;float:left;}
-.entery-flex{display:flex;justify-content:space-between;align-items:center;margin:20px 0 15px;}
-.entery-flex-labels{display:flex;flex-wrap: wrap;}
-div h3 a{margin:auto;padding-top:0;font-size:30px;text-transform:capitalize;font-weight:600;font-style:italic;margin-top:-16px1em;line-height:30px}
-img.snip-thumbnail.lazy-img{margin:auto;width:320px;height:245px}
-p.post-snippet{margin-left:220px;margin-top:-25px;font-size:18px}
-a.read-more{margin-bottom:1.2em}
-img.post-author-image{padding-right:5px}
+.article-summary{display:flex;flex-direction:row;align-items:flex-start;gap:20px;border:1px solid #e0e0e0;border-radius:8px;padding:15px;margin-bottom:20px;box-shadow:0 2px 5px #0000001a}
+.article-thumbnail{flex-shrink:0;width:320px;height:240px;object-fit:cover;border-radius:6px}
+.article-content{display:flex;flex-direction:column;justify-content:space-between;flex-grow:1}
+.article-title{font-size:1.3rem;font-weight:700;line-height:1.3;margin:0 0 5px}
+.article-date{font-size:.9rem;color:#777;margin-bottom:10px}
+.article-snippet{font-size:1.15rem;line-height:1.5;color:#555;margin-bottom:15px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+.continue-reading-button{display:inline-flex;flex-basis:100%;align-self:flex-end;padding:10px 20px;margin-bottom:50px;background-color:#007BFF;color:#fff;text-decoration:none;border-radius:5px;font-weight:700;transition:background-color .3s}
 div.entery-flex-author{margin-bottom:1em}
-article.hentry.post-filter.item1{margin-top:0;padding-top:5px}
+article.hentry.post-filter.item1{margin:50px 0;padding:50px 5px} 
 .post-tag:hover{color:var(--primary-bg-color);}
 .post-tag:nth-child(1):before{color:#ff5b00}
 .post-tag:nth-child(2):before{color:#00a4ff}
@@ -395,7 +400,7 @@ div#messageDone{display:block;padding:20px 0 0}
 .show-share .overlay{backdrop-filter:saturate(100%) blur(2.5px);background-color:#1b1b2580;filter:blur(2.5px);opacity:1;visibility:visible;z-index:151515}
 .entery-category-fly .entry-title{color:var(--featured-posts-title-featured)}
 .entery-category-fly .post-snip{--label-text-color:var(--snip-text-color);--post-snip-data:var(--snip-text-color)}
-.post-filter .entry-title{font-size:23px}
+.post-filter .entry-title{font-size:1.3rem}
 a.more-c{background:var(--button-bg-color);border-radius:3px;color:var(--button-text-color);font-size:13px;font-weight:400;padding:3px 12px;z-index:1}
 a.more-c:hover{box-shadow:inset 0 0 19px 8px #00000038}
 .featured-post-pro .open-iki{display:block!important}
@@ -463,7 +468,7 @@ a.read-more:hover{opacity:.8}
 #breadcrumb{color:#aaa;font-size:13px;font-weight:400;margin:0 0 10px}#breadcrumb a{color:#aaa;transition:color .4s}#breadcrumb a:hover{opacity:.8}#breadcrumb a,#breadcrumb em{display:inline-block}#breadcrumb .delimiter:after{content:'🠊';font-family:var(--icons-font);font-size:10px;font-weight:400;margin:0;vertical-align:middle}
 .item-post .post-inner-area h1.entry-title{color:#004d40;font-size:300%;font-weight:600;line-height:150%;margin:0 0 15px;padding:0;text-align:left;text-transform:capitalize}
 .static_page .item-post .post-inner-area h1.entry-title{border-bottom:1px solid #64646454}
-.item-post .post-body{color:var(--text-font-color);font-family:var(--text-font);font-size:1.3rem;line-height:1.5;margin:0;padding:0;width:100%}
+.item-post .post-body{color:var(--text-font-color);font-family:var(--text-font);font-size:1.2rem;line-height:1.5;margin:0;padding:0;width:100%}
 .post-footer{float:left;margin:0;position:relative;width:100%}
 .label-container{height:auto;margin:10px 0;overflow:hidden;padding:0;position:relative}
 .label-container a,.label-container span{background:#0000001a;border-radius:8px;color:var(--theme-text-color);float:left;font-size:13px;font-weight:400;height:19px;line-height:19px;margin:8px 8px 0 0;padding:2px 10px}
@@ -517,12 +522,12 @@ blockquote:after{bottom:0;margin:0 0 0 10px;right:20px;transform:scaleX(-1)}
 .post-body ul{font-weight:400;line-height:1.5;margin:10px 0;padding:0 0 0 15px;position:outside}
 .post-body li{line-height:1.5;margin:5px 0 15px;padding:0;position:outside}
 .post-body ol > li{counter-increment:inc;list-style:none;position:outside}
-.post-body ol > li:before{content:counters(inc, '.') '.';display:inline-block;margin:0 5px 0 1.3em;position:outside}
+.post-body ol > li:before{content:counters(inc, '.') '.';display:inline-block;margin:0 5px 0 1.2rem;position:outside}
 .post-body ol{counter-reset:inc;margin:.8em 0;padding:0 0 0 15px}
 .post-body iframe[allowfullscreen]{aspect-ratio:16/9;height:auto;position:outside}
 .post-body u{text-decoration:underline}
 .post-body ul li,.post-body ol li{list-style:none;position:outside}
-.post-body ul li:before{content:"🠊";display:inline-block;font-family:var(--icons-font);font-size:4px;line-height:1.5;margin:0 5px 0 1.3em;vertical-align:middle;position:outside}
+.post-body ul li:before{content:"🠊";display:inline-block;font-family:var(--icons-font);font-size:4px;line-height:1.5;margin:0 5px 0 1.2rem;vertical-align:middle;position:outside}
 .post-body ul li ul li:before{content:"\f28a";position:outside}
 .rtl .post-body ul li:before,.rtl .post-body ol > li:before{margin:0 0 0 5px;position:outside}
 .post-body strike{text-decoration:line-through}
@@ -535,11 +540,11 @@ blockquote:after{bottom:0;margin:0 0 0 10px;right:20px;transform:scaleX(-1)}
 .post-card .entry-category-box{margin:15px 0 0 25px;text-align:left}
 .post-body p{margin-top:1em}
 .aligned-list{list-style-type:none;padding:0;max-width:600px;margin:0 auto}.aligned-list li{text-align:right;margin-bottom:10px}
-ul li a{font-size:23px}
-div p a{line-height:23px}
-.post-body p a{background-color:#e0f7fa;font-size:23px;font-style:italic;font-weight:500}
-.post-body ul li a{background-color:#e0f7fa;font-size:23px;font-style:italic;font-weight:500}
-.post-card .entry-category-box h2{font-size:22px}
+ul li a{font-size:1.2rem}
+div p a{line-height:1.2rem}
+.post-body p a{background-color:#e0f7fa;font-size:1.2rem;font-style:italic;font-weight:500}
+.post-body ul li a{background-color:#e0f7fa;font-size:1.2rem;font-style:italic;font-weight:500}
+.post-card .entry-category-box h2{font-size:1.2rem}
 .card-headline{color:var(--button-bg-color);display:block;font-size:15px;padding:0 0 0 25px;position:relative}
 .card-headline:before{content:'\F4EA';font-family:var(--icons-font);font-size:18px;font-weight:400;left:0;margin:0 0 0 3px;position:absolute;vertical-align:middle}
 .pagination{display:flex;justify-content:center;margin:15px}.pagination .btn{background:var(--button-bg-color);border-radius:6px;color:var(--button-text-color);display:block;font-size:15px;margin:0;min-width:70px;padding:8px 12px;position:relative;text-align:center}.pagination .btn:before,.pagination .btn:after{font-family:var(--icons-font);font-size:20px;font-weight:400;margin:0;vertical-align:middle}.pagination .prev.btn:before{content:"\F284"}.pagination .next.btn:after{content:"\F285"}.pagination .info{margin:0 15px;padding:8px 0}
@@ -610,4 +615,4 @@ ul.socialFilter{margin:0 -5px}
 .related-runs .related-box{width:100%}.related-runs .related-box .related-box-thumb{height:250px}.post-snip{margin:10px 10px 0 0}}
 @media screen and (max-width: 480px) {.post-filter .entry-title{font-size:20px}.kshare li a span{display:none}.post-card{display:block}.post-card .entery-category-box{margin:15px 10px}.post-image{height:190px}card-wrap{align-items:start;display:block;flex-direction:column}a.card-button.main-button{display:block;max-width:100%}.card-header{justify-content:flex-start}.sidebar .PopularPosts .post-filter-inner{height:115px;width:130px}.my-sidebar .sidebarui-posts .glax-img{height:125px}.description-links li{display:inline-block;float:none;margin:10px}.errorPage{padding:70px 0 100px}
 .errorPage h3{font-size:120px}#comments ol{padding:0}}
-@media screen and (max-width: 380px) {.pagination .btn{font-size:0;min-width:unset}.search-thumb{height:80px;width:100px}.about-author .avatar-container{height:60px;width:60px}.item .comment-bubble{display:none}.share-top{margin:0}
+@media screen and (max-width: 380px) {.pagination .btn{font-size:0;min-width:unset}.search-thumb{height:80px;width:100px}.about-author .avatar-container{height:60px;width:60px}.item .comment-bubble{display:none}.share-top{margin:0}}
