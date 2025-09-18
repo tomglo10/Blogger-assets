@@ -1,0 +1,31 @@
+{
+  "title": "Parser Traps – Blogger Template Audit",
+  "lastUpdated": "2025-09-18",
+  "traps": [
+    {
+      "id": "nested-section-error",
+      "description": "Nesting <b:section> inside another <b:section> causes parser failure.",
+      "symptoms": ["Widget not rendering", "Layout breaks", "No error message in dashboard"],
+      "safeAlternative": "Use <b:section> only at top-level. Wrap inner content in <div> or <section>."
+    },
+    {
+      "id": "duplicate-main-tag",
+      "description": "Multiple <main> tags confuse semantic structure and break accessibility.",
+      "symptoms": ["Screen reader confusion", "SEO penalties", "Ahrefs heading mismatch"],
+      "safeAlternative": "Lock a single <main> around Blog1 or post content only."
+    },
+    {
+      "id": "comment-form-failure",
+      "description": "Comment form fails to load if placed inside hidden or conditional widgets.",
+      "symptoms": ["Form not visible", "JS errors in console", "No submission possible"],
+      "safeAlternative": "Place comment form in visible, static section. Avoid conditional logic."
+    },
+    {
+      "id": "broken-widget-binding",
+      "description": "Widgets with missing IDs or invalid types silently fail to bind.",
+      "symptoms": ["Widget not rendering", "No error message", "Empty layout space"],
+      "safeAlternative": "Use valid widget types and ensure unique IDs. Avoid legacy widget markup."
+    }
+  ]
+}
+
