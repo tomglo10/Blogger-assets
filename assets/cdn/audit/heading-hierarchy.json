@@ -1,0 +1,40 @@
+{
+  "title": "Heading Hierarchy Audit – Aging Health",
+  "lastUpdated": "2025-09-18",
+  "pages": [
+    {
+      "page": "Homepage",
+      "url": "/",
+      "headings": [
+        { "level": "h1", "text": "Aging Health", "role": "Site Title" },
+        { "level": "h2", "text": "Latest Posts", "role": "Section Title" },
+        { "level": "h3", "text": "Post Title", "role": "Post Preview" },
+        { "level": "h3", "text": "Categories", "role": "Sidebar Section" }
+      ],
+      "notes": "Ensure only one <h1> exists. Consider elevating sidebar sections to <h2> if they’re primary."
+    },
+    {
+      "page": "Item Page",
+      "url": "/p/sample-post.html",
+      "headings": [
+        { "level": "h1", "text": "Post Title", "role": "Main Content" },
+        { "level": "h2", "text": "Introduction", "role": "Content Section" },
+        { "level": "h2", "text": "Conclusion", "role": "Content Section" },
+        { "level": "h3", "text": "Related Posts", "role": "Sidebar Section" }
+      ],
+      "notes": "Avoid duplicate <h1> tags from header/logo. Lock <main> tag around post content."
+    },
+    {
+      "page": "Privacy Policy",
+      "url": "/p/privacy-policy.html",
+      "headings": [
+        { "level": "h1", "text": "Privacy Notice – Aging Health", "role": "Document Title" },
+        { "level": "h2", "text": "Third-Party Services", "role": "Section" },
+        { "level": "h2", "text": "Cookies and Tracking", "role": "Section" },
+        { "level": "h2", "text": "Your Rights", "role": "Section" }
+      ],
+      "notes": "Use <section> with ARIA roles for accessibility. Avoid nesting traps."
+    }
+  ]
+}
+
