@@ -1,0 +1,27 @@
+{
+  "title": "Disclaimer – Aging Health",
+  "lastUpdated": "2025-09-18",
+  "sections": [
+    {
+      "id": "general-info",
+      "heading": "General Information",
+      "content": "The content on Aging Health is for informational purposes only and does not constitute medical advice, diagnosis, or treatment."
+    },
+    {
+      "id": "no-liability",
+      "heading": "No Liability",
+      "content": "We do not accept responsibility for any loss or damage resulting from reliance on the information provided on this site."
+    },
+    {
+      "id": "external-links",
+      "heading": "External Links",
+      "content": "Links to external websites are provided for convenience. We do not endorse or take responsibility for their content or privacy practices."
+    },
+    {
+      "id": "content-updates",
+      "heading": "Content Updates",
+      "content": "Information may be updated or changed without notice. We strive for accuracy but cannot guarantee completeness or timeliness."
+    }
+  ]
+}
+
