@@ -1,0 +1,33 @@
+<code id="native-feed"><![CDATA[
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "author": "Wire Templates",
+  "website": "https://www.wiretemplates.com/",
+  "feed": <b:if cond='!data:posts.empty'>{
+    "entry": [
+      <b:loop index='i' values='data:posts' var='post'>
+        <b:if cond='data:i != 0'>,</b:if>
+        {
+          "id": "<data:post.id.jsonEscaped/>",
+          "title": "<b:eval expr='data:post.title ? data:post.title.jsonEscaped : data:messages.noTitle.jsonEscaped'/>",
+          "date": "<b:if cond='data:widgets.Blog.first.allBylineItems.timestamp'><data:post.date.jsonEscaped/><b:else/></b:if>",
+          "datetime": "<b:if cond='data:widgets.Blog.first.allBylineItems.timestamp'><data:post.date.iso8601.jsonEscaped/><b:else/></b:if>",
+          "author": "<b:if cond='data:allBylineItems.author'><data:post.author.name.jsonEscaped/><b:else/></b:if>",
+          "authorimage": "<b:if cond='data:allBylineItems.author'><b:eval expr='data:post.author.authorPhoto.image ? resizeImage(data:post.author.authorPhoto.image, 1600, &quot;4:3&quot;) : &quot;https://4.bp.blogspot.com/-uCjYgVFIh70/VuOLn-mL7PI/AAAAAAAADUs/Kcu9wJbv790hIo83rI_s7lLW3zkLY01EA/s100-rw/&quot;'/><b:else/>data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E</b:if>",
+          "category": "<b:if cond='data:post.labels'><data:post.labels.first.name/><b:else/></b:if>",
+          "link": "<data:post.url.canonical.jsonEscaped/>",
+          "thumbnail": {
+            "src": "<b:if cond='data:post.featuredImage'><b:eval expr='data:post.featuredImage.isYouTube ? resizeImage(data:post.featuredImage.youtubeMaxResDefaultUrl.jsonEscaped, 1600, &quot;4:3&quot;) : resizeImage(data:post.featuredImage.jsonEscaped, 1600, &quot;4:3&quot;)'/><b:else/>https://resources.blogblog.com/img/blank.gif</b:if>",
+            "type": "<b:if cond='data:post.featuredImage.isYouTube'>video-nos<b:else/>image-nos</b:if>"
+          }
+          <b:if cond='data:post.snippets.short snippet { length: 175 }'>,
+          "summary": "<data:post.snippets.short.jsonEscaped/>"
+          </b:if>
+        }
+      </b:loop>
+    ]
+  }</b:if>
+}
+]]></code>
+
