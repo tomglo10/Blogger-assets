@@ -1,6 +1,19 @@
 <script type="application/ld+json"><![CDATA[
 {
   "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "<data:view.url.canonical/>#website",
+  "name": "<data:view.title.escaped/>",
+  "description": "<data:view.description.escaped/>",
+  "url": "<data:view.url.canonical/>",
+  "inLanguage": "<data:blog.localeUnderscoreDelimited/>",
+  "dateModified": "<data:blog.lastUpdated.iso8601/>"
+}
+]]></script>
+
+<script type="application/ld+json"><![CDATA[
+{
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",
