@@ -1,3 +1,9 @@
+{
+  "@type": "WebSite",
+  "@id": "<data:view.url.canonical/>#website",
+  "dateModified": "<data:blog.lastUpdated.iso8601/>"
+}
+
 <script type="application/ld+json"><![CDATA[
 {
   "@context": "https://schema.org",
