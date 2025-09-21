@@ -1,0 +1,21 @@
+name: Tag Blogger Assets
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  tag-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Create timestamped tag
+        run: |
+          VERSION="v$(date +'%Y%m%d%H%M%S')"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git tag $VERSION
+          git push origin $VERSION
+
