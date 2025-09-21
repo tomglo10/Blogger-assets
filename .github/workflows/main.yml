@@ -1,6 +1,6 @@
 - name: Push changes
   run: git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/tomglo10/Blogger-assets.git $VERSIONname: Tag Blogger Assets
-
+[![.github/workflows/main.yml](https://github.com/tomglo10/Blogger-assets/actions/workflows/main.yml/badge.svg)](https://github.com/tomglo10/Blogger-assets/actions/workflows/main.yml)
 on:
   push:
     branches: [main]
