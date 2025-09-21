@@ -1,0 +1,15 @@
+[class^="post-"] ol li{margin:.7em 0}
+[class^="post-"] ul{list-style:none;padding-left:2.5rem}
+[class^="post-"] ul > li{position:relative;padding-left:2.5rem;margin:.8em 0;line-height:1.6}
+[class^="post-"] ul > li::before{content:"🠊";position:absolute;left:0;width:2rem;text-align:right;font-size:.9rem;color:var(--text-color);line-height:1.6}
+.rtl [class^="post-"] li::before{left:auto;right:0;text-align:left}
+[class^="post-"] li b{font-weight:700;font-style:italic}
+[class^="post-"] sup{vertical-align:super}
+[class^="post-"] sub{vertical-align:sub}
+[class^="post-"] strike{text-decoration:line-through}
+[class^="post-"] p{margin-top:1em}
+[class^="post-"] p a,[class^="post-"] ul li a,[class^="post-"] div p a{background-color:#e0f7fa;font-size:1.2rem;font-style:italic;font-weight:500;line-height:1.2;margin:1em 0;text-decoration:underline}
+[class^="post-"] p a:focus-visible{outline:2px dashed #00796b;outline-offset:2px}
+.aligned-list{list-style:none;padding:0;max-width:600px;margin:0 auto}
+.aligned-list li{text-align:right;margin-bottom:10px}
+[class^="post-"]{padding:1rem}
