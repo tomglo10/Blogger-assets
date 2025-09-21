@@ -509,3 +509,55 @@ a.user-image{display:block;float:left;overflow:hidden;position:relative;z-index:
 .alert-message.warning{background-color:#fcf8e3;border-color:#faf218;color:#8a6d3b}
 .alert-message.error{background-color:#ffd7d2;border-color:#ff9494;color:#f55d5d}
 .code-box{background-color:#0d1642;border:1px solid #9b9b9b4d;border-radius:2px;color:#eaeaea;display:block;font-family:Monospace;font-size:13px;line-height:1.4;margin:0;padding:25px 10px 20px;position:relative;white-space:pre-wrap}.card-wrap{align-items:center;border:1px solid #7878781c;border-radius:6px;box-shadow:0 0 4px 2px #8181810d;display:flex;justify-content:space-between;margin:18px 20px;padding:25px 10px}.card-header{align-items:center;display:flex;justify-content:space-between}.card-icon{background:#81818124;border-radius:4px;display:block;font-size:20px;height:50px;line-height:50px;margin:0 10px;min-width:50px;text-align:center;width:50px}.card-info{align-items:flex-start;display:flex;flex-direction:column;justify-content:space-between}.card-title{-webkit-box-orient:vertical;-webkit-line-clamp:1;display:-webkit-box;font-size:16px;font-weight:700;overflow:hidden;width:100%}.card-data{color:#767676;font-size:12px}
+html,body#layout #outer-wrapper,body#layout .outer-container{padding:0;width:auto}
+body#layout{background:#fff;border:1px solid #def2ff;margin:1px;max-width:100%;padding:95px 5px 0;position:relative;width:auto}
+body#layout:before{background:#fdfdfd;border:1px solid #cac9c9!important;border-radius:10px;color:#919191;content:"Diver 1.5.0.V";font-family:MONOSPACE;font-size:15px;font-weight:400;padding:6px 14px;position:absolute;right:20px;top:20px;z-index:1}
+body#layout div.section{background-color:#f3f3f3!important;border:0;border-color:#009bde;border-radius:5px;display:block;margin:0 5px 10px!important;padding:16px 16px 18px!important}
+body#layout .section h4{font-size:14px;margin:0!important}
+body#layout .section h4,body#layout div.layout-title{display:-webkit-box}
+body#layout .section h4:after{color:#6b6b6b;font-weight:400;text-transform:initial}
+body#layout .widget-content{border:1px solid #538bf5;border-radius:5px;margin:0;max-height:none;max-width:none;width:auto}
+body#layout .widget .widget-content a.editlink{border-radius:2px}
+body#layout .visibility .editlink{background:#3363ff url(https://1.bp.blogspot.com/-yggSg-F-GrY/YJbChcKAXNI/AAAAAAAABmk/hn1KE7b_qtEeu4EYEDnejdq17f0xZjz4QCLcBGAsYHQ/s20-rw/) no-repeat center!important}
+body#layout .visibility .editlink:hover{background-color:#bed8ff!important}
+body#layout .draggable-widget .widget-wrap2 .widget-content{border-radius:0 5px 5px 0}
+body#layout .draggable-widget .widget-wrap2{background:#3363ff url(https://1.bp.blogspot.com/-hMi3I2lPKLQ/XcVHiWtl6GI/AAAAAAAAAPQ/M2XKqrvMItIH7dQdiEyH9cQ35lvkW36FgCNcBGAsYHQ/s1600-rw/) no-repeat 4px 50%!important;border-radius:5px}
+body#layout .draggable-widget .widget-wrap1 .widget-wrap2{background-color:#3363ff!important}
+body#layout .visibility .layout-widget-state.visible{background-image:url(https://1.bp.blogspot.com/-uYbp0hXEKwo/XcVGwr7W7-I/AAAAAAAAAPI/lihmCldvuy0c0J54DHpqaZnQ9sZ-qv4zgCNcBGAsYHQ/s1600-rw/)!important}
+body#layout .visibility .layout-widget-state.not-visible{background-image:url(https://1.bp.blogspot.com/-zsoXuAqK0Rs/YSrwXcPcFOI/AAAAAAAACHU/kJA24Ue423YlPX2svO7hSJEGNMcdcn-eACLcBGAsYHQ/s48-rw/)!important;background-repeat:no-repeat;background-size:24px!important;opacity:1}
+body#layout div.admin-section{overflow:hidden!important}
+body#layout .layout-widget-description{display:none}
+body#layout .admin-area,body#layout #main-menu .widget{display:block!important;width:100%}
+body#layout #custom-ads-placeholder{display:flex!important}
+body#layout #custom-ads-placeholder .section{width:49%}
+body#layout .hamburger,body#layout .search-toggle,body#layout #nav-search,body#layout #HTML44{display:none}
+body#layout .header-section{width:100%}
+body#layout .header-left{display:flex}
+body#layout #header-room,.original-menu{width:50%}
+.rtl body#layout .add_widget a{display:block}
+body#layout .search-toggle,body#layout .section-sticky{display:none}
+body#layout #center-container{margin:0}
+body#layout #center-container > .container{display:flex;margin:auto}
+body#layout #feed-view{padding:0;width:68.66%}
+body#layout #sidebar-container{display:block;padding:0;width:33.33%}
+body#layout .sidebar .widget,body#layout .sidebar .widget-content{float:none;overflow:visible}
+body#layout .fl-footer,body#layout .footer-outer{display:flex}
+body#layout .Footer-Function,body#layout div#footer-checks-menu,body#layout div#footer-copyright{overflow:hidden!important;width:100%}
+body#layout .footer-primary{overflow:hidden!important}
+body#layout .footer-primary div.widget{float:left!important;width:49%!important}
+body#layout div#LinkList7{margin-left:1%!important}
+body#layout .section > h4:after{font-size:12px;font-weight:400}
+body#layout #admin > h4:after{content:' - For setting up comments system, related posts, dark mode and button texts.'}
+body#layout #header-room > h4:after{content:' - Set Main Logo here with Dark Logo (use link box for dark logo)'}
+body#layout #original-menu > h4:after{content:' - Edit menu and submenu links here'}
+body#layout #hot-posts > h4:after{content:' - Trending/Popular Section'}
+body#layout #top-box > h4:after{content:' - Main Custom Featured Posts'}
+body#layout #main-ads1 > h4:after{content:' - Ads Section place ad code here'}
+body#layout #main > h4:after{content:' - Recent Posts, Comments, no. of Posts etc.'}
+body#layout div#promo-ok > h4:after{content:' - Put ad code to show ads inside posts/pages'}
+body#layout #main-ads2 > h4:after{content:' - Bottom Footer Ads Section (responsive)'}
+body#layout #Footer-Function3 > h4:after{content:' - Change footer logo and caption'}
+body#layout #footer-checks-menu > h4:after{content:' - Footer Pages Links'}
+body#layout #footer-copyright > h4:after{content:' - Footer Copyright Link'}
+body#layout #sidebar > h4:after{content:' - Sidebar widgets'}
+body#layout #cookies > h4:after{content:' - Change Cookies Consent from here'}
