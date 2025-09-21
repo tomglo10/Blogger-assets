@@ -1,4 +1,5 @@
-name: Tag Blogger Assets
+- name: Push changes
+  run: git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/tomglo10/Blogger-assets.git $VERSIONname: Tag Blogger Assets
 
 on:
   push:
