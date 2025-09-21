@@ -1,0 +1,34 @@
+[class^="post-"] ol li {
+  margin: 0.7em 0;
+}
+
+[class^="post-"] ul {
+  list-style: none;
+  padding-left: 2.5rem;
+}
+
+[class^="post-"] ul > li {
+  position: relative;
+  padding-left: 2.5rem;
+  margin: 0.8em 0;
+  line-height: 1.6;
+}
+
+[class^="post-"] ul > li::before {
+  content: "🠊";
+  position: absolute;
+  left: 0;
+  width: 2rem;
+  text-align: right;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+.rtl [class^="post-"] li::before {
+  left: auto;
+  right: 0;
+  text-align: left;
+}
+
+
+
