@@ -48,3 +48,10 @@ Use semantic tags (, , etc.) for stable CDN links:
 • 	Use Chrome DevTools → Performance → Screenshots to verify LCP image discovery
 • 	Use Lighthouse → Diagnostics → Layout Shift and JS Transfer Size
 • 	Confirm badge overlays for active modules
+### 6. `semantic-audit.js`
+Highlights unlabeled form fields and orphaned `<li>` elements for accessibility compliance.
+
+- Adds dashed red outline to inputs missing `id` or `<label>`
+- Adds dashed orange outline to `<li>`s outside `<ul>` or `<ol>`
+- Injects badge: `Semantic Audit Active`
+
