@@ -21,7 +21,14 @@
   <script>const badge = document.createElement('div');
 badge.textContent = "Audit Mode: Layout Cleanup Active";
 badge.style = "position:fixed;bottom:0;right:0;background:#222;color:#fff;padding:4px;font-size:12px;z-index:9999;";
-document.body.appendChild(badge);</script>
+document.body.appendChild(badge);
+window.addEventListener('load', () => {
+  const lcpImage = document.querySelector('img[fetchpriority="high"]');
+  if (lcpImage) {
+    console.log("LCP image discovered early:", lcpImage.src);
+  }
+});</script>
+
 
 
 
