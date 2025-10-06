@@ -12,7 +12,16 @@
   // Remove Blogger's injected scripts
   document.querySelectorAll('script[src*="blogger.com"]').forEach(script => {
     script.remove();
-    console.log("Removed Blogger script:", script.src);
+    console.log("Removed Blogger script:", script.src);document.querySelectorAll('iframe[src*="comment_from_post_iframe"]').forEach(iframe => {
+  iframe.remove();
+  console.log("Removed Blogger comment iframe");
+});
   });
 })();</script>
+  <script>const badge = document.createElement('div');
+badge.textContent = "Audit Mode: Layout Cleanup Active";
+badge.style = "position:fixed;bottom:0;right:0;background:#222;color:#fff;padding:4px;font-size:12px;z-index:9999;";
+document.body.appendChild(badge);</script>
+
+
 
