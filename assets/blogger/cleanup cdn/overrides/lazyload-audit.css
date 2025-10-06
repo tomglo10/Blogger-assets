@@ -1,0 +1,18 @@
+/* Lazyload Audit Badge */
+.lazy-badge {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #007bff;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 6px;
+  z-index: 9999;
+  font-family: sans-serif;
+}
+
+/* Highlight deferred images */
+img[loading="lazy"] {
+  outline: 2px dashed orange;
+}
+
