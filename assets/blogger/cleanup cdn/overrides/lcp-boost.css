@@ -1,0 +1,35 @@
+/* LCP Boost Styles — v1.0 */
+
+/* Ensure hero image is stable and discoverable */
+.hero-image,
+.lcp-image {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+/* Optional: preload badge container */
+.lcp-badge {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #0a0;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 6px;
+  z-index: 9999;
+  font-family: sans-serif;
+}
+
+/* Prevent layout shifts from captions or tables */
+.tr-caption-container {
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
