@@ -1,0 +1,20 @@
+/* Override Blogger's injected styles */
+body {
+  background: #fff !important;
+  font-family: system-ui, sans-serif;
+}
+
+/* Hide unwanted widgets */
+.widget-content,
+#navbar-iframe,
+.blogger-logo {
+  display: none !important;
+}
+
+/* Optional: reset layout quirks */
+.post-footer,
+.quickedit {
+  display: none !important;
+}
+
+
