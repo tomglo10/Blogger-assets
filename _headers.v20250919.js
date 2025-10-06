@@ -1,7 +1,7 @@
 /assets/*
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=31536000
-<script>
+
     // Create meta tags
     const metaCacheControl = document.createElement('meta');
     metaCacheControl.setAttribute('http-equiv', 'Cache-Control');
@@ -19,4 +19,4 @@
     document.head.appendChild(metaCacheControl);
     document.head.appendChild(metaPragma);
     document.head.appendChild(metaExpires);
-</script>
+
