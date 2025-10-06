@@ -16,5 +16,13 @@ body {
 .quickedit {
   display: none !important;
 }
+.tr-caption-container {
+  display: block !important;
+  margin: 0 auto !important;
+  max-width: 100% !important;
+  overflow: hidden;
+}
+
+
 
 
