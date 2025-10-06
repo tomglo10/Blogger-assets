@@ -6,9 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img.setAttribute("loading", "lazy");
       console.log("Deferred offscreen image:", img.src);
     }
-  });
-
-  // Inject audit badge
+  });  // Inject audit badge
   const badge = document.createElement("div");
   badge.textContent = "Lazy-Loading Active";
   badge.className = "lazy-badge";
