@@ -1,0 +1,29 @@
+name: Tag and Update Latest
+
+on:
+  push:
+    branches:
+      - blogger-audit-kit
+
+jobs:
+  tag-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set version tag
+        run: |
+          VERSION="v$(date +'%Y.%m.%d.%H%M')"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git tag $VERSION
+          git push origin $VERSION
+
+      - name: Update latest.json
+        run: |
+          echo "{\"latest\": \"$VERSION\"}" > latest.json
+          git add latest.json
+          git commit -m "Update latest.json to $VERSION"
+          git push
+
