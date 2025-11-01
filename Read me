@@ -1,0 +1,15 @@
+🧪 Testing Audit Overlays & LCP Candidates
+🔍 1. Verify LCP Candidate with Chrome DevTools
+1. 	Open your Blogger post in Chrome.
+2. 	Press  to open DevTools → go to the Performance tab.
+3. 	Click Start recording, then reload the page.
+4. 	Stop recording after load completes.
+5. 	Look for the LCP marker in the timeline.
+6. 	Hover over it to see the DOM element selected as the LCP candidate.
+7. 	Confirm it matches the element with  class (highlighted in blue outline).
+🧩 2. Enable Audit Overlays
+Add  to any element you want outlined for diagnostics:
+The  script will automatically apply  styling.
+👓 3. Test Senior-Friendly Mode
+Enable reduced motion in your OS settings or simulate it:
+This triggers larger fonts, better spacing, and image scaling for accessibility.
