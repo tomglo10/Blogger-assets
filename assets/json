@@ -1,26 +1,27 @@
-{
-  "@type": "WebSite",
-  "@id": "<data:view.url.canonical/>#website",
-  "dateModified": "<data:blog.lastUpdated.iso8601/>"
-}
-
-<script type="application/ld+json"><![CDATA[
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "<data:view.url.canonical/>#website",
-  "name": "<data:view.title.escaped/>",
-  "description": "<data:view.description.escaped/>",
-  "url": "<data:view.url.canonical/>",
-  "inLanguage": "<data:blog.localeUnderscoreDelimited/>",
-  "dateModified": "<data:blog.lastUpdated.iso8601/>"
-}
-]]></script>
-
-<script type="application/ld+json"><![CDATA[
+<script type="application/ld+json">
+<![CDATA[
 {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "<data:view.url.canonical/>#website",
+      "name": "<data:view.title.escaped/>",
+      "description": "<data:view.description.escaped/>",
+      "url": "<data:view.url.canonical/>",
+      "inLanguage": "<data:blog.localeUnderscoreDelimited/>",
+      "dateModified": "<data:blog.lastUpdated.iso8601/>"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Blogger Audit Kit",
+      "codeRepository": "https://github.com/tomglo10/Blogger-assets",
+      "version": "<b:eval expr='data:blog.metaTag["latest-version"] ? data:blog.metaTag["latest-version"] : \"v1.0.0\"'/>",
+      "programmingLanguage": "CSS, JavaScript",
+      "license": "https://opensource.org/licenses/MIT",
+      "description": "Modular audit overlays, diagnostics, and senior-friendly tooling for Blogger maintainers.",
+      "url": "https://cdn.jsdelivr.net/gh/tomglo10/Blogger-assets@<b:eval expr='data:blog.metaTag[\"latest-version\"] ? data:blog.metaTag[\"latest-version\"] : \"v1.0.0\"'/>/blogger-audit-kit/"
+    },
     {
       "@type": "BlogPosting",
       "mainEntityOfPage": {
@@ -29,7 +30,7 @@
       },
       "headline": "<data:post.title.jsonEscaped/>",
       "description": "<data:view.description.escaped/>",
-      "image": "<b:eval expr='data:post.featuredImage.jsonEscaped ? data:post.featuredImage.jsonEscaped : &quot;https://resources.blogblog.com/img/blank.gif&quot;'/>",
+      "image": "<b:eval expr='data:post.featuredImage.jsonEscaped ? data:post.featuredImage.jsonEscaped : \"https://resources.blogblog.com/img/blank.gif\"'/>",
       "author": {
         "@type": "Person",
         "name": "<data:post.author.name.jsonEscaped/>",
@@ -59,7 +60,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "<b:eval expr='data:post.labels.first.name.jsonEscaped ? data:post.labels.first.name.jsonEscaped : data:messages.posts'/>",
-          "item": "<b:eval expr='data:post.labels.first.url.canonical.jsonEscaped ? data:post.labels.first.url.canonical.jsonEscaped : data:blog.homepageUrl.canonical.jsonEscaped + &quot;search/&quot;'/>"
+          "item": "<b:eval expr='data:post.labels.first.url.canonical.jsonEscaped ? data:post.labels.first.url.canonical.jsonEscaped : data:blog.homepageUrl.canonical.jsonEscaped + \"search/\"'/>"
         },
         {
           "@type": "ListItem",
@@ -71,5 +72,6 @@
     }
   ]
 }
-]]></script>
+]]>
+</script>
 
