@@ -1,6 +1,6 @@
 /assets/*
   Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=31536000
+Cache-Control: public, max-age=31536000, immutable
 
     // Create meta tags
     const metaCacheControl = document.createElement('meta');
